@@ -1,0 +1,25 @@
+{
+    "name": "btc-china",
+    "version": "0.0.1",
+    "description": "Node.js API wrapper to BTC China bitcoin exchange",
+    "main": "index.js",
+    "dependencies": {
+        "request": "~2.51.0",
+        "underscore": "~1.7.0",
+        "crypto": "~0.0.3",
+        "verror": "~1.6.0",
+        "microtime": "~1.2.0"
+    },
+    "keywords": [
+        "BTC China",
+        "api",
+        "exchange",
+        "bitcoin"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/naddison36/btc-china"
+    },
+    "author": "Nick Addison",
+    "license": "MIT"
+}

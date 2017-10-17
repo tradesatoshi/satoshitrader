@@ -1,10 +1,10 @@
-var BTCChina = require('btc-china');
+var TradeSatoshi = require('tradesatoshi');
 
 var since1Minute = new Date().getTime() / 1000 -  60, // convert to seconds then take off 60 seconds
     since1Day = new Date().getTime() / 1000 -  60 * 60 * 24 // convert to seconds then take off 1 day
 
 // Test public data APIs
-var publicClient = new BTCChina();
+var publicClient = new TradeSatoshi();
 
 // publicClient.getTicker(console.log, 'BTCCNY');
 
@@ -28,7 +28,7 @@ var publicClient = new BTCChina();
 var key = process.argv[2] || 'your-api-key';
 var secret = process.argv[3] || 'your-api-secret';
 
-var privateClient = new BTCChina(key, secret);
+var privateClient = new TradeSatoshi(key, secret);
 
 // uncomment the API you want to test.
 // Be sure to check the parameters so you don't do any unwanted live trades

@@ -1,7 +1,7 @@
 {
-    "name": "btc-china",
+    "name": "tradesatoshi",
     "version": "0.0.1",
-    "description": "Node.js API wrapper to BTC China bitcoin exchange",
+    "description": "Node.js API Wrapper Compatible with TradeSatoshi CryptoCurrency Exchange",
     "main": "index.js",
     "dependencies": {
         "request": "~2.51.0",
@@ -11,15 +11,17 @@
         "microtime": "~1.2.0"
     },
     "keywords": [
-        "BTC China",
+        "TradeSatoshi",
         "api",
         "exchange",
-        "bitcoin"
+        "bitcoin",
+        "cryptocurrency",
+        "altcoin"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/naddison36/btc-china"
+        "url": "https://github.com/xieta/satoshitrader"
     },
-    "author": "Nick Addison",
+    "author": "Xi Eta",
     "license": "MIT"
 }

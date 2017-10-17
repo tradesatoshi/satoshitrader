@@ -1,15 +1,15 @@
-BTC China
-Node.js wrapper to BTC China API
+TradeSatoshi
+Node.js API Wrapper Compatible with TradeSatoshi CryptoCurrency Exchange
 ===============
 
-A node.js wrapper for the [Trading](http://btcchina.org/api-trade-documentation-en#trade_api_authentication) and [Market](http://btcchina.org/api-market-data-documentation-en) APIs exposed by bitcoin exchange [BTC China](https://www.btcchina.com).
-You will need have a registered account with [BTC China](https://www.btcchina.com) and generated API keys to access the private methods.
+A node.js wrapper for the [TradeSatoshi API](https://tradesatoshi.com/Home/Api) exposed by the [TradeSatoshi CryptoCurrency Exchange](https://tradesatoshi.com).
+You will need to [create a new account](https://tradesatoshi.com/Account/Register) and [generate an API key](https://tradesatoshi.com/Settings#settings) to access the private methods.
 
-Please contact support@btcchina.com if you are having trouble opening and account or generating an API key.
+Please contact [@TradeSatoshi](https://twitter.com/TradeSatoshi) if you are having trouble opening an account or generating an API key.
 
 ### Install
 
-`npm install btcchina
+`npm install tradesatoshi
 
 ### Examples
 Please see the exmaples.js file
